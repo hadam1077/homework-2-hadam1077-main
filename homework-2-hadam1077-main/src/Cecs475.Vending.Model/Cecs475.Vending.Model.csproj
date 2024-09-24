@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<Nullable>enable</Nullable>
+    <AssemblyName>Cecs475.Vending.Model</AssemblyName>
+    <PackageId>Cecs475.Vending.Model</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+	<LangVersion>default</LangVersion>
+  </PropertyGroup>
+
+</Project>

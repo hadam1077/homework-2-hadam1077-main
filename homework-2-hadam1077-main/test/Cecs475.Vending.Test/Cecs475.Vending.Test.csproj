@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <AssemblyName>Cecs475.Poker.Test</AssemblyName>
+    <PackageId>Cecs475.Poker.Test</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
+    <PackageReference Include="xunit" Version="2.9.0" />
+    <PackageReference Include="FluentAssertions" Version="6.12.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Cecs475.Vending.Model\Cecs475.Vending.Model.csproj" />
+  </ItemGroup>
+
+</Project>
